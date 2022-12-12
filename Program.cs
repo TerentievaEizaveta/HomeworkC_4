@@ -73,7 +73,8 @@ void ShowArray(int [] array)
         else Console.Write(array[i] +", " );
     Console.Write("]");
 }
-int size =8;
+Console.Write("Input a size array");
+int size =Convert.ToInt32(Console.ReadLine());
 int [] array = CreatArray(size);
 ShowArray(array);
 */
